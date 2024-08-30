@@ -109,7 +109,7 @@ const Form = ({ formId, petForm, forNewPet = true }) => {
         <label htmlFor="name">Name</label>
         <input
           type="text"
-          maxLength="20"
+          maxLength="30"
           name="name"
           value={form.name}
           onChange={handleChange}
@@ -119,7 +119,7 @@ const Form = ({ formId, petForm, forNewPet = true }) => {
         <label htmlFor="owner_name">Owner</label>
         <input
           type="text"
-          maxLength="20"
+          maxLength="40"
           name="owner_name"
           value={form.owner_name}
           onChange={handleChange}
